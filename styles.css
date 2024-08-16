@@ -1,8 +1,5 @@
 
 
-
-
-
 body{
 
 
@@ -13,5 +10,12 @@ background:white;
 
 header {
 border:solid 2px white;
+margin: 0;
+}
 
+header {
+    border:solid 2px blueviolet
+
+    padding 20px;
+    font-size:32px;
 }
