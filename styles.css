@@ -3,7 +3,7 @@
 body{
 
 
-color:blue;
+color:rgb(0, 0, 0);
 background:white;
 
 }
@@ -21,7 +21,7 @@ header {
 }
 
 section {
-    background: blue;
+    background: rgb(115, 115, 196);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
