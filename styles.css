@@ -1,25 +1,22 @@
 
-
 body{
+ background:white;
 color:rgb(0, 0, 0);
 font-family: "Qwitcher Grypen", cursive;
-background:white;
+margin: 0px;
+margin-bottom: 100px;
 
 }
 
 header {
-border:solid 2px rgb(32, 101, 104);
-margin: 0;
+border-bottom: 2px solid rgb(32, 101, 104);
+padding: 20px;
+font-size: 32px;
+color: blueviolet;
+
 }
 
-header {
-    border:solid 2px rgb(229, 229, 230)
-
-    padding 20px;
-    font-size:32px;
-}
-
-section {
+.chamada {
     background: rgb(215, 215, 223);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -36,9 +33,7 @@ h1{
 p{
    font-size: 20px;
 }
-img{
-    height: 200px:
-}
+
 .categoria-videos{
     display:flex;
     overflow-x:auto;
@@ -51,6 +46,7 @@ img{
 }
 .categoria-videos img{
     opacity: 0.5;
+    height: 200px;
 }
 .categoria-videos img:hover{
     opacity: 1.0;
